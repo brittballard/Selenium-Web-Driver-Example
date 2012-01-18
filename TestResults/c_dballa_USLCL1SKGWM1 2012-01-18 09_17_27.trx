@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="114968c8-2ccf-4a18-b7ca-a68bf40411c9" name="c_dballa@USLCL1SKGWM1 2012-01-18 09:17:27" runUser="BABGSETC\c_dballa" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="70eb43b9-b952-4134-8694-dbaee989e7d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="c_dballa_USLCL1SKGWM1 2012-01-18 09_17_27">
+      <DeploymentItem filename="C:\Source\SeleniumWebDriver\packages\Selenium.WebDriver.2.17.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Source\SeleniumWebDriver\packages\Newtonsoft.Json.4.0.4\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Source\SeleniumWebDriver\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-18T09:17:27.8026293-06:00" queuing="2012-01-18T09:17:28.2296089-06:00" start="2012-01-18T09:17:28.2690691-06:00" finish="2012-01-18T09:17:39.0073025-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EampleOne" storage="c:\source\seleniumwebdriver\seleniumwebdriverexample\bin\debug\seleniumwebdriverexample.dll" id="698c51fe-ca98-c3b9-4e0e-291df6fe7e66">
+      <Execution id="25ae41a5-bc62-4340-8cf6-73241f99cf0f" />
+      <TestMethod codeBase="C:/Source/SeleniumWebDriver/SeleniumWebDriverExample/bin/Debug/SeleniumWebDriverExample.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumWebDriverExample.SeleniumWebDriver, SeleniumWebDriverExample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EampleOne" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="698c51fe-ca98-c3b9-4e0e-291df6fe7e66" executionId="25ae41a5-bc62-4340-8cf6-73241f99cf0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="25ae41a5-bc62-4340-8cf6-73241f99cf0f" testId="698c51fe-ca98-c3b9-4e0e-291df6fe7e66" testName="EampleOne" computerName="USLCL1SKGWM1" duration="00:00:10.3470155" startTime="2012-01-18T09:17:28.2781753-06:00" endTime="2012-01-18T09:17:38.9344529-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25ae41a5-bc62-4340-8cf6-73241f99cf0f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

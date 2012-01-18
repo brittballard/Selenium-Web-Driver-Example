@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="150f7a15-0c57-4d06-ac51-c9e97e59ac9b" name="c_dballa@USLCL1SKGWM1 2012-01-18 09:12:41" runUser="BABGSETC\c_dballa" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="70eb43b9-b952-4134-8694-dbaee989e7d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="c_dballa_USLCL1SKGWM1 2012-01-18 09_12_41">
+      <DeploymentItem filename="C:\Source\GamestopServices\Impulse.Service.Fulfillment\SeleniumWebDriverExample\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Source\GamestopServices\Impulse.Service.Fulfillment\SeleniumWebDriverExample\packages\Selenium.WebDriver.2.17.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Source\GamestopServices\Impulse.Service.Fulfillment\SeleniumWebDriverExample\packages\Newtonsoft.Json.4.0.4\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-18T09:12:41.1730817-06:00" queuing="2012-01-18T09:12:42.0760169-06:00" start="2012-01-18T09:12:42.1891409-06:00" finish="2012-01-18T09:12:57.2377181-06:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USLCL1SKGWM1" outcome="Error" timestamp="2012-01-18T09:12:57.2377181-06:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EampleOne" storage="c:\source\gamestopservices\impulse.service.fulfillment\seleniumwebdriverexample\seleniumwebdriverexample\bin\debug\seleniumwebdriverexample.dll" id="698c51fe-ca98-c3b9-4e0e-291df6fe7e66">
+      <Execution id="129a14cb-b520-4529-b85f-eb7308b75a3b" />
+      <TestMethod codeBase="C:/Source/GamestopServices/Impulse.Service.Fulfillment/SeleniumWebDriverExample/SeleniumWebDriverExample/bin/Debug/SeleniumWebDriverExample.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumWebDriverExample.SeleniumWebDriver, SeleniumWebDriverExample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EampleOne" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="698c51fe-ca98-c3b9-4e0e-291df6fe7e66" executionId="129a14cb-b520-4529-b85f-eb7308b75a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="129a14cb-b520-4529-b85f-eb7308b75a3b" testId="698c51fe-ca98-c3b9-4e0e-291df6fe7e66" testName="EampleOne" computerName="USLCL1SKGWM1" duration="00:00:14.9498508" startTime="2012-01-18T09:12:42.2878673-06:00" endTime="2012-01-18T09:12:57.2377181-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129a14cb-b520-4529-b85f-eb7308b75a3b">
+    </UnitTestResult>
+  </Results>
+</TestRun>
