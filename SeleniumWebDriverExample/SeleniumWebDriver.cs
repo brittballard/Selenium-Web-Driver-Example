@@ -17,11 +17,11 @@ namespace SeleniumWebDriverExample
             IWebDriver driver = new FirefoxDriver();
 
             driver.Navigate().GoToUrl("http://order.papajohns.com/storelocator/page.html");
-            IWebElement streetAddress = driver.FindElement(By.Id("streetAddress"));
+            var streetAddress = driver.FindElement(By.Id("streetAddress"));
             streetAddress.SendKeys("3800 Commerce");
-            IWebElement zip = driver.FindElement(By.Id("zip"));
+            var zip = driver.FindElement(By.Id("zip"));
             zip.SendKeys("75226");
-            IWebElement searchButton = driver.FindElement(By.Id("mainSearchBtn"));
+            var searchButton = driver.FindElement(By.Id("mainSearchBtn"));
             searchButton.Click();
             var title = driver.Title;
 
